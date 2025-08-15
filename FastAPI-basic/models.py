@@ -1,7 +1,7 @@
 from typing import Optional
 from pydantic import BaseModel
 
-class Curso(BaseModel):
+class Course(BaseModel):
 
     id: Optional[int] = None
     title: str
